@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Huella de Carbono | Eco.Green</title>
+    <link rel="icon" type="image/png" href="img/logo.png">
+    <link rel="stylesheet" href="css/calculadora.css">
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="Eco.Green" class="logo-img">
+            <span>Eco.Green</span>
+        </div>
+
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="catalogo.html">Catálogo</a>
+            <a href="calculadora.html">Calculadora</a>
+            <a href="nosotros.html">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </nav>
+    </header>
+
+    <section class="top-bar">
+        <h1>Calculadora de Huella de Carbono</h1>
+        <p>
+            Evalúa el impacto ambiental de tu consumo energético y tus hábitos de transporte.
+        </p>
+    </section>
+
+    <section class="info-container">
+
+        <div class="info-card">
+            <h3>⚡ Consumo Energético</h3>
+            <p>
+                Registra el consumo mensual de energía de tu hogar para conocer
+                su impacto en el medio ambiente.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>🚗 Transporte</h3>
+            <p>
+                Indica el medio de transporte que utilizas y los kilómetros
+                recorridos cada mes.
+            </p>
+        </div>
+
+        <div class="info-card">
+            <h3>🌱 Resultado</h3>
+            <p>
+                Obtén una estimación de emisiones de CO₂ y recomendaciones para
+                reducir tu huella ambiental.
+            </p>
+        </div>
+
+    </section>
+
+    <section class="formulario-container">
+
+        <h2>Ingresa tus datos</h2>
+
+        <form class="formulario-carbono">
+
+            <div class="campo">
+                <label>Consumo de energía mensual (kWh)</label>
+                <input type="number" placeholder="Ejemplo: 250">
+            </div>
+
+            <div class="campo">
+                <label>Medio de transporte</label>
+                <select>
+                    <option>Selecciona una opción</option>
+                    <option>Coche</option>
+                    <option>Moto</option>
+                    <option>Bus</option>
+                    <option>Tren</option>
+                    <option>Bicicleta</option>
+                </select>
+            </div>
+
+            <div class="campo">
+                <label>Kilómetros recorridos al mes</label>
+                <input type="number" placeholder="Ejemplo: 500">
+            </div>
+
+            <button type="submit">Calcular Impacto</button>
+
+        </form>
+
+    </section>
+
+    <section class="resultado-container">
+
+        <h2>Resultado</h2>
+
+        <div class="resultado-card">
+            <p>
+                Aquí se mostrará el cálculo estimado de emisiones de CO₂ y
+                recomendaciones para disminuir tu impacto ambiental.
+            </p>
+        </div>
+
+    </section>
+
+    <footer>
+        © 2026 Eco.Green - Todos los derechos reservados
+    </footer>
+
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+.flash-sale {
+    width: 90%;
+    margin: 60px auto;
+    padding: 40px;
+    text-align: center;
+    background: #1a774c;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+}
+
+.flash-sale h2 {
+    color: white;
+    font-size: 35px;
+    margin: 20px 0;
+}
+
+.flash-sale p {
+    color: #f5f5f5;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.flash-timer {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 25px;
+}
+
+.timer-box {
+    width: 90px;
+    height: 90px;
+    background: white;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+.timer-box span {
+    color: #1a774c;
+    font-size: 2rem;
+}
+
+.timer-box small {
+    color: #555;
+}
+
+.mensaje-urgencia {
+    color: #fff3cd;
+    font-weight: bold;
+    margin: 15px 0 25px;
+}
+
+.btn-oferta {
+    display: inline-block;
+    background: #af684c;
+    color: white;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+.btn-oferta:hover {
+    background: #8d5138;
+    transform: scale(1.05);
+}
+
+@media(max-width:900px){
+
+    .flash-sale{
+        padding: 30px 20px;
+    }
+
+    .flash-sale h2{
+        font-size: 28px;
+    }
+
+    .timer-box{
+        width: 75px;
+        height: 75px;
+    }
+
+    .timer-box span{
+        font-size: 1.5rem;
+    }
+}

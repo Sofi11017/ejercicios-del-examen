@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:#f4f7f4;
+}
+
+/* HEADER */
+
+header{
+    background:#2e7d32;
+    color:white;
+    padding:15px 40px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+    display:flex;
+    align-items:center;
+    gap:10px;
+}
+
+.logo-img{
+    height:65px;
+    border-radius:50%;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+
+/* TITULO */
+
+.top-bar{
+    text-align:center;
+    padding:40px 20px;
+}
+
+.top-bar h1{
+    color:#2e7d32;
+    margin-bottom:15px;
+}
+
+.top-bar p{
+    color:#555;
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+}
+
+/* TARJETAS */
+
+.info-container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+    padding:20px;
+    max-width:1200px;
+    margin:auto;
+}
+
+.info-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    border-top:5px solid #2e7d32;
+}
+
+.info-card h3{
+    color:#2e7d32;
+    margin-bottom:12px;
+}
+
+.info-card p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* FORMULARIO */
+
+.formulario-container{
+    max-width:800px;
+    margin:40px auto;
+    padding:20px;
+}
+
+.formulario-container h2{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:25px;
+}
+
+.formulario-carbono{
+    background:white;
+    padding:30px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+}
+
+.campo{
+    display:flex;
+    flex-direction:column;
+    margin-bottom:20px;
+}
+
+.campo label{
+    font-weight:bold;
+    margin-bottom:8px;
+    color:#333;
+}
+
+.campo input,
+.campo select{
+    padding:12px;
+    border:1px solid #ccc;
+    border-radius:8px;
+}
+
+.formulario-carbono button{
+    width:100%;
+    background:#2e7d32;
+    color:white;
+    border:none;
+    padding:14px;
+    border-radius:8px;
+    font-size:16px;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.formulario-carbono button:hover{
+    background:#1b5e20;
+}
+
+/* RESULTADO */
+
+.resultado-container{
+    max-width:800px;
+    margin:0 auto 40px;
+    padding:20px;
+}
+
+.resultado-container h2{
+    text-align:center;
+    color:#2e7d32;
+    margin-bottom:20px;
+}
+
+.resultado-card{
+    background:white;
+    padding:25px;
+    border-radius:12px;
+    box-shadow:0 2px 10px rgba(0,0,0,.1);
+    border-left:5px solid #2e7d32;
+}
+
+.resultado-card p{
+    color:#555;
+    line-height:1.7;
+}
+
+/* FOOTER */
+
+footer{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:30px;
+}
+
+/* RESPONSIVE */
+
+@media (max-width:768px){
+
+    header{
+        flex-direction:column;
+        gap:15px;
+    }
+
+    nav{
+        display:flex;
+        flex-wrap:wrap;
+        justify-content:center;
+        gap:10px;
+    }
+
+    nav a{
+        margin-left:0;
+    }
+
+    .info-container{
+        grid-template-columns:1fr;
+    }
+}

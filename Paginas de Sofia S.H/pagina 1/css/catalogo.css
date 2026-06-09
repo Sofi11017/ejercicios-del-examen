@@ -1,0 +1,29 @@
+.titulo-ofertas{
+    color:#2e7d32;
+    text-align:center;
+    margin-bottom:30px;
+    font-size:32px;
+}
+
+.oferta{
+    position:relative;
+    border:2px solid #ff9800;
+}
+
+.badge-oferta{
+    position:absolute;
+    top:10px;
+    right:10px;
+    background:#ff5722;
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    font-size:14px;
+    font-weight:bold;
+}
+
+.precio-anterior{
+    color:#999;
+    text-decoration:line-through;
+    margin-bottom:5px;
+}
